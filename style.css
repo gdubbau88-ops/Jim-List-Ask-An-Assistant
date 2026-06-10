@@ -1,7 +1,4 @@
 /* The code below centers the text of all h1's on the page. */
-h1 {
-    text-align: center;
-}
 
 /* The code below centers all images on the page and gives them a width of 400px. */
 img {
@@ -12,9 +9,7 @@ img {
 }
 
 /* The code below centers the text of all h2's on the page. */
-h2 {
-    text-align: center;
-}
+
 
 /* The code below aligns all the sections horizontally on the bottom. */
 .section-container {
@@ -32,6 +27,7 @@ title {
 
 body {
     background-color: #ef6000;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 h1 {
@@ -39,6 +35,8 @@ h1 {
     text-align: center;
     color: black;
     background-color: #ef6000;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
 h2 {
@@ -50,6 +48,7 @@ h2 {
     border-radius: 10px;
     border-width: 5px;
     padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 p {
@@ -58,20 +57,26 @@ p {
     color: black;
     background-color: #ef6000;
     margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 ul {
     font-size: 25px;
     text-align: left;
     color: black;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 a {
     font-size: 20px;
     text-align: center;
-    color: darkblue;
+    color: black;
 }
-
+a:hover{
+    text-decoration: underline;
+    color:black;
+}
 .section-1,
 .section-2,
 .section-3 {
@@ -80,7 +85,7 @@ a {
     flex:1;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border: 5px solid black;
     margin: 10px;
     background-color: #ef6000;
